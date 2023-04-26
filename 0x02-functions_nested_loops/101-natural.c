@@ -10,7 +10,7 @@ int main(void)
 
 {
 
-	int i, Z = 0;	
+	int i, z = 0;	
 
 	while (i < 1024)
 	{
