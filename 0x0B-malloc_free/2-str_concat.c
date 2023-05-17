@@ -1,4 +1,4 @@
-#include "main.h"		
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -6,7 +6,7 @@
  * str_concat - Concatenates two strings of any size
  * @s1: the first string to concatenate
  * @s2: the second string to concatenate
- * 
+ *
  * Return: the two strings concatenated
  */
 char *str_concat(char *s1, char *s2)
@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		if (k <= i)
 			s[k] = s1[k];
-		
+
 		if (k >= i)
 		{
 			s[k] = s2[j];
